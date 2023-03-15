@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CC08CC629C1FBAA004CEB32 /* CalorEaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08CC529C1FBAA004CEB32 /* CalorEaseApp.swift */; };
+		3CC08CC829C1FBAA004CEB32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08CC729C1FBAA004CEB32 /* ContentView.swift */; };
+		3CC08CCA29C1FBAC004CEB32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC08CC929C1FBAC004CEB32 /* Assets.xcassets */; };
+		3CC08CCD29C1FBAC004CEB32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC08CCC29C1FBAC004CEB32 /* Preview Assets.xcassets */; };
+		3CC08CD729C1FBAC004CEB32 /* CalorEaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08CD629C1FBAC004CEB32 /* CalorEaseTests.swift */; };
+		3CC08CE129C1FBAC004CEB32 /* CalorEaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08CE029C1FBAC004CEB32 /* CalorEaseUITests.swift */; };
+		3CC08CE329C1FBAC004CEB32 /* CalorEaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08CE229C1FBAC004CEB32 /* CalorEaseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CC08CD329C1FBAC004CEB32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CC08CBA29C1FBAA004CEB32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CC08CC129C1FBAA004CEB32;
+			remoteInfo = CalorEase;
+		};
+		3CC08CDD29C1FBAC004CEB32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CC08CBA29C1FBAA004CEB32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CC08CC129C1FBAA004CEB32;
+			remoteInfo = CalorEase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CC08CC229C1FBAA004CEB32 /* CalorEase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalorEase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC08CC529C1FBAA004CEB32 /* CalorEaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorEaseApp.swift; sourceTree = "<group>"; };
+		3CC08CC729C1FBAA004CEB32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CC08CC929C1FBAC004CEB32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CC08CCC29C1FBAC004CEB32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CC08CD229C1FBAC004CEB32 /* CalorEaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalorEaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC08CD629C1FBAC004CEB32 /* CalorEaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorEaseTests.swift; sourceTree = "<group>"; };
+		3CC08CDC29C1FBAC004CEB32 /* CalorEaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalorEaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC08CE029C1FBAC004CEB32 /* CalorEaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorEaseUITests.swift; sourceTree = "<group>"; };
+		3CC08CE229C1FBAC004CEB32 /* CalorEaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorEaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CC08CBF29C1FBAA004CEB32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC08CCF29C1FBAC004CEB32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC08CD929C1FBAC004CEB32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CC08CB929C1FBAA004CEB32 = {
+			isa = PBXGroup;
+			children = (
+				3CC08CC429C1FBAA004CEB32 /* CalorEase */,
+				3CC08CD529C1FBAC004CEB32 /* CalorEaseTests */,
+				3CC08CDF29C1FBAC004CEB32 /* CalorEaseUITests */,
+				3CC08CC329C1FBAA004CEB32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CC08CC329C1FBAA004CEB32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CC08CC229C1FBAA004CEB32 /* CalorEase.app */,
+				3CC08CD229C1FBAC004CEB32 /* CalorEaseTests.xctest */,
+				3CC08CDC29C1FBAC004CEB32 /* CalorEaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CC08CC429C1FBAA004CEB32 /* CalorEase */ = {
+			isa = PBXGroup;
+			children = (
+				3CC08CC529C1FBAA004CEB32 /* CalorEaseApp.swift */,
+				3CC08CC729C1FBAA004CEB32 /* ContentView.swift */,
+				3CC08CC929C1FBAC004CEB32 /* Assets.xcassets */,
+				3CC08CCB29C1FBAC004CEB32 /* Preview Content */,
+			);
+			path = CalorEase;
+			sourceTree = "<group>";
+		};
+		3CC08CCB29C1FBAC004CEB32 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CC08CCC29C1FBAC004CEB32 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CC08CD529C1FBAC004CEB32 /* CalorEaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CC08CD629C1FBAC004CEB32 /* CalorEaseTests.swift */,
+			);
+			path = CalorEaseTests;
+			sourceTree = "<group>";
+		};
+		3CC08CDF29C1FBAC004CEB32 /* CalorEaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CC08CE029C1FBAC004CEB32 /* CalorEaseUITests.swift */,
+				3CC08CE229C1FBAC004CEB32 /* CalorEaseUITestsLaunchTests.swift */,
+			);
+			path = CalorEaseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CC08CC129C1FBAA004CEB32 /* CalorEase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC08CE629C1FBAC004CEB32 /* Build configuration list for PBXNativeTarget "CalorEase" */;
+			buildPhases = (
+				3CC08CBE29C1FBAA004CEB32 /* Sources */,
+				3CC08CBF29C1FBAA004CEB32 /* Frameworks */,
+				3CC08CC029C1FBAA004CEB32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalorEase;
+			productName = CalorEase;
+			productReference = 3CC08CC229C1FBAA004CEB32 /* CalorEase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CC08CD129C1FBAC004CEB32 /* CalorEaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC08CE929C1FBAC004CEB32 /* Build configuration list for PBXNativeTarget "CalorEaseTests" */;
+			buildPhases = (
+				3CC08CCE29C1FBAC004CEB32 /* Sources */,
+				3CC08CCF29C1FBAC004CEB32 /* Frameworks */,
+				3CC08CD029C1FBAC004CEB32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CC08CD429C1FBAC004CEB32 /* PBXTargetDependency */,
+			);
+			name = CalorEaseTests;
+			productName = CalorEaseTests;
+			productReference = 3CC08CD229C1FBAC004CEB32 /* CalorEaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CC08CDB29C1FBAC004CEB32 /* CalorEaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC08CEC29C1FBAC004CEB32 /* Build configuration list for PBXNativeTarget "CalorEaseUITests" */;
+			buildPhases = (
+				3CC08CD829C1FBAC004CEB32 /* Sources */,
+				3CC08CD929C1FBAC004CEB32 /* Frameworks */,
+				3CC08CDA29C1FBAC004CEB32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CC08CDE29C1FBAC004CEB32 /* PBXTargetDependency */,
+			);
+			name = CalorEaseUITests;
+			productName = CalorEaseUITests;
+			productReference = 3CC08CDC29C1FBAC004CEB32 /* CalorEaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CC08CBA29C1FBAA004CEB32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3CC08CC129C1FBAA004CEB32 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3CC08CD129C1FBAC004CEB32 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3CC08CC129C1FBAA004CEB32;
+					};
+					3CC08CDB29C1FBAC004CEB32 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3CC08CC129C1FBAA004CEB32;
+					};
+				};
+			};
+			buildConfigurationList = 3CC08CBD29C1FBAA004CEB32 /* Build configuration list for PBXProject "CalorEase" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CC08CB929C1FBAA004CEB32;
+			productRefGroup = 3CC08CC329C1FBAA004CEB32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CC08CC129C1FBAA004CEB32 /* CalorEase */,
+				3CC08CD129C1FBAC004CEB32 /* CalorEaseTests */,
+				3CC08CDB29C1FBAC004CEB32 /* CalorEaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CC08CC029C1FBAA004CEB32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC08CCD29C1FBAC004CEB32 /* Preview Assets.xcassets in Resources */,
+				3CC08CCA29C1FBAC004CEB32 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC08CD029C1FBAC004CEB32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC08CDA29C1FBAC004CEB32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CC08CBE29C1FBAA004CEB32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC08CC829C1FBAA004CEB32 /* ContentView.swift in Sources */,
+				3CC08CC629C1FBAA004CEB32 /* CalorEaseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC08CCE29C1FBAC004CEB32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC08CD729C1FBAC004CEB32 /* CalorEaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC08CD829C1FBAC004CEB32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC08CE329C1FBAC004CEB32 /* CalorEaseUITestsLaunchTests.swift in Sources */,
+				3CC08CE129C1FBAC004CEB32 /* CalorEaseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CC08CD429C1FBAC004CEB32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CC08CC129C1FBAA004CEB32 /* CalorEase */;
+			targetProxy = 3CC08CD329C1FBAC004CEB32 /* PBXContainerItemProxy */;
+		};
+		3CC08CDE29C1FBAC004CEB32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CC08CC129C1FBAA004CEB32 /* CalorEase */;
+			targetProxy = 3CC08CDD29C1FBAC004CEB32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CC08CE429C1FBAC004CEB32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CC08CE529C1FBAC004CEB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CC08CE729C1FBAC004CEB32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalorEase/Preview Content\"";
+				DEVELOPMENT_TEAM = K5DY9P29V9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.ethanclark.CalorEase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CC08CE829C1FBAC004CEB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalorEase/Preview Content\"";
+				DEVELOPMENT_TEAM = K5DY9P29V9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.ethanclark.CalorEase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CC08CEA29C1FBAC004CEB32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K5DY9P29V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.ethanclark.CalorEaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalorEase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalorEase";
+			};
+			name = Debug;
+		};
+		3CC08CEB29C1FBAC004CEB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K5DY9P29V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.ethanclark.CalorEaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalorEase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalorEase";
+			};
+			name = Release;
+		};
+		3CC08CED29C1FBAC004CEB32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K5DY9P29V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.ethanclark.CalorEaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalorEase;
+			};
+			name = Debug;
+		};
+		3CC08CEE29C1FBAC004CEB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K5DY9P29V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.ethanclark.CalorEaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalorEase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CC08CBD29C1FBAA004CEB32 /* Build configuration list for PBXProject "CalorEase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC08CE429C1FBAC004CEB32 /* Debug */,
+				3CC08CE529C1FBAC004CEB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC08CE629C1FBAC004CEB32 /* Build configuration list for PBXNativeTarget "CalorEase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC08CE729C1FBAC004CEB32 /* Debug */,
+				3CC08CE829C1FBAC004CEB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC08CE929C1FBAC004CEB32 /* Build configuration list for PBXNativeTarget "CalorEaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC08CEA29C1FBAC004CEB32 /* Debug */,
+				3CC08CEB29C1FBAC004CEB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC08CEC29C1FBAC004CEB32 /* Build configuration list for PBXNativeTarget "CalorEaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC08CED29C1FBAC004CEB32 /* Debug */,
+				3CC08CEE29C1FBAC004CEB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CC08CBA29C1FBAA004CEB32 /* Project object */;
+}
