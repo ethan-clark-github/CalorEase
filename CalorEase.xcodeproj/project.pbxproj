@@ -14,6 +14,26 @@
 		3CC08CD729C1FBAC004CEB32 /* CalorEaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08CD629C1FBAC004CEB32 /* CalorEaseTests.swift */; };
 		3CC08CE129C1FBAC004CEB32 /* CalorEaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08CE029C1FBAC004CEB32 /* CalorEaseUITests.swift */; };
 		3CC08CE329C1FBAC004CEB32 /* CalorEaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08CE229C1FBAC004CEB32 /* CalorEaseUITestsLaunchTests.swift */; };
+		3CC08CF229C1FC4A004CEB32 /* FoodModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08CF029C1FC4A004CEB32 /* FoodModel.xcdatamodeld */; };
+		3CC08CF429C1FD62004CEB32 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08CF329C1FD62004CEB32 /* DataController.swift */; };
+		3CC08CF829C2044D004CEB32 /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08CF729C2044D004CEB32 /* AddFoodView.swift */; };
+		3CC08CFA29C2076C004CEB32 /* TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08CF929C2076C004CEB32 /* TimeFormatting.swift */; };
+		3CC08CFC29C214BE004CEB32 /* EditFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08CFB29C214BE004CEB32 /* EditFoodView.swift */; };
+		3CC08D4629C4B4AD004CEB32 /* Watch_Your_CalorEaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08D4529C4B4AD004CEB32 /* Watch_Your_CalorEaseApp.swift */; };
+		3CC08D4829C4B4AD004CEB32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08D4729C4B4AD004CEB32 /* ContentView.swift */; };
+		3CC08D4A29C4B4AF004CEB32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC08D4929C4B4AF004CEB32 /* Assets.xcassets */; };
+		3CC08D4D29C4B4AF004CEB32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC08D4C29C4B4AF004CEB32 /* Preview Assets.xcassets */; };
+		3CC08D5029C4B4AF004CEB32 /* Watch Your CalorEase Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3CC08D4329C4B4AD004CEB32 /* Watch Your CalorEase Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3CC08D5629C4BB05004CEB32 /* ConnectivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08D5529C4BB05004CEB32 /* ConnectivityViewModel.swift */; };
+		3CC08D5929C4C2A6004CEB32 /* ConnectivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08D5529C4BB05004CEB32 /* ConnectivityViewModel.swift */; };
+		3CC08D5B29C4C66B004CEB32 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08D5A29C4C66B004CEB32 /* FoodModel.swift */; };
+		3CC08D5C29C4C66B004CEB32 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08D5A29C4C66B004CEB32 /* FoodModel.swift */; };
+		3CC08D5E29C4D256004CEB32 /* WatchFoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08D5D29C4D256004CEB32 /* WatchFoodListView.swift */; };
+		3CEE178A29C744D0008B4109 /* ConnectivityViewModel+watchOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE178929C744D0008B4109 /* ConnectivityViewModel+watchOS.swift */; };
+		3CEE178C29C744F5008B4109 /* ConnectivityViewModel+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE178B29C744F5008B4109 /* ConnectivityViewModel+iOS.swift */; };
+		3CEE179229C75403008B4109 /* TimeFormatting+watchOS.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE179029C75403008B4109 /* TimeFormatting+watchOS.swift.swift */; };
+		3CEE179329C75B4A008B4109 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08CF329C1FD62004CEB32 /* DataController.swift */; };
+		3CEE179429C75EF2008B4109 /* TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08CF929C2076C004CEB32 /* TimeFormatting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +51,28 @@
 			remoteGlobalIDString = 3CC08CC129C1FBAA004CEB32;
 			remoteInfo = CalorEase;
 		};
+		3CC08D4E29C4B4AF004CEB32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CC08CBA29C1FBAA004CEB32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CC08D4229C4B4AD004CEB32;
+			remoteInfo = "Watch Your CalorEase Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3CC08D5129C4B4AF004CEB32 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3CC08D5029C4B4AF004CEB32 /* Watch Your CalorEase Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3CC08CC229C1FBAA004CEB32 /* CalorEase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalorEase.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +85,22 @@
 		3CC08CDC29C1FBAC004CEB32 /* CalorEaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalorEaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC08CE029C1FBAC004CEB32 /* CalorEaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorEaseUITests.swift; sourceTree = "<group>"; };
 		3CC08CE229C1FBAC004CEB32 /* CalorEaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorEaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CC08CF129C1FC4A004CEB32 /* FoodModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodModel.xcdatamodel; sourceTree = "<group>"; };
+		3CC08CF329C1FD62004CEB32 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		3CC08CF729C2044D004CEB32 /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
+		3CC08CF929C2076C004CEB32 /* TimeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatting.swift; sourceTree = "<group>"; };
+		3CC08CFB29C214BE004CEB32 /* EditFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFoodView.swift; sourceTree = "<group>"; };
+		3CC08D4329C4B4AD004CEB32 /* Watch Your CalorEase Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watch Your CalorEase Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC08D4529C4B4AD004CEB32 /* Watch_Your_CalorEaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watch_Your_CalorEaseApp.swift; sourceTree = "<group>"; };
+		3CC08D4729C4B4AD004CEB32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CC08D4929C4B4AF004CEB32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CC08D4C29C4B4AF004CEB32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CC08D5529C4BB05004CEB32 /* ConnectivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityViewModel.swift; sourceTree = "<group>"; };
+		3CC08D5A29C4C66B004CEB32 /* FoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
+		3CC08D5D29C4D256004CEB32 /* WatchFoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchFoodListView.swift; sourceTree = "<group>"; };
+		3CEE178929C744D0008B4109 /* ConnectivityViewModel+watchOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConnectivityViewModel+watchOS.swift"; sourceTree = "<group>"; };
+		3CEE178B29C744F5008B4109 /* ConnectivityViewModel+iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConnectivityViewModel+iOS.swift"; sourceTree = "<group>"; };
+		3CEE179029C75403008B4109 /* TimeFormatting+watchOS.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeFormatting+watchOS.swift.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,15 +125,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3CC08D4029C4B4AD004CEB32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		3CC08CB929C1FBAA004CEB32 = {
 			isa = PBXGroup;
 			children = (
+				3CEE178F29C75271008B4109 /* Shared */,
 				3CC08CC429C1FBAA004CEB32 /* CalorEase */,
 				3CC08CD529C1FBAC004CEB32 /* CalorEaseTests */,
 				3CC08CDF29C1FBAC004CEB32 /* CalorEaseUITests */,
+				3CC08D4429C4B4AD004CEB32 /* Watch Your CalorEase Watch App */,
 				3CC08CC329C1FBAA004CEB32 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +153,7 @@
 				3CC08CC229C1FBAA004CEB32 /* CalorEase.app */,
 				3CC08CD229C1FBAC004CEB32 /* CalorEaseTests.xctest */,
 				3CC08CDC29C1FBAC004CEB32 /* CalorEaseUITests.xctest */,
+				3CC08D4329C4B4AD004CEB32 /* Watch Your CalorEase Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +162,12 @@
 			isa = PBXGroup;
 			children = (
 				3CC08CC529C1FBAA004CEB32 /* CalorEaseApp.swift */,
-				3CC08CC729C1FBAA004CEB32 /* ContentView.swift */,
+				3CC08CF629C20416004CEB32 /* Helpers */,
+				3CC08CF529C203FE004CEB32 /* Views */,
+				3CC08CEF29C1FC02004CEB32 /* DataModel */,
 				3CC08CC929C1FBAC004CEB32 /* Assets.xcassets */,
 				3CC08CCB29C1FBAC004CEB32 /* Preview Content */,
+				3CEE178B29C744F5008B4109 /* ConnectivityViewModel+iOS.swift */,
 			);
 			path = CalorEase;
 			sourceTree = "<group>";
@@ -127,6 +197,64 @@
 			path = CalorEaseUITests;
 			sourceTree = "<group>";
 		};
+		3CC08CEF29C1FC02004CEB32 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				3CC08CF029C1FC4A004CEB32 /* FoodModel.xcdatamodeld */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		3CC08CF529C203FE004CEB32 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3CC08CC729C1FBAA004CEB32 /* ContentView.swift */,
+				3CC08CF729C2044D004CEB32 /* AddFoodView.swift */,
+				3CC08CFB29C214BE004CEB32 /* EditFoodView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3CC08CF629C20416004CEB32 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3CC08D4429C4B4AD004CEB32 /* Watch Your CalorEase Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				3CC08D4529C4B4AD004CEB32 /* Watch_Your_CalorEaseApp.swift */,
+				3CC08D4729C4B4AD004CEB32 /* ContentView.swift */,
+				3CC08D4929C4B4AF004CEB32 /* Assets.xcassets */,
+				3CC08D4B29C4B4AF004CEB32 /* Preview Content */,
+				3CC08D5D29C4D256004CEB32 /* WatchFoodListView.swift */,
+				3CEE178929C744D0008B4109 /* ConnectivityViewModel+watchOS.swift */,
+			);
+			path = "Watch Your CalorEase Watch App";
+			sourceTree = "<group>";
+		};
+		3CC08D4B29C4B4AF004CEB32 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CC08D4C29C4B4AF004CEB32 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CEE178F29C75271008B4109 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3CC08CF929C2076C004CEB32 /* TimeFormatting.swift */,
+				3CC08CF329C1FD62004CEB32 /* DataController.swift */,
+				3CC08D5529C4BB05004CEB32 /* ConnectivityViewModel.swift */,
+				3CC08D5A29C4C66B004CEB32 /* FoodModel.swift */,
+				3CEE179029C75403008B4109 /* TimeFormatting+watchOS.swift.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,10 +265,12 @@
 				3CC08CBE29C1FBAA004CEB32 /* Sources */,
 				3CC08CBF29C1FBAA004CEB32 /* Frameworks */,
 				3CC08CC029C1FBAA004CEB32 /* Resources */,
+				3CC08D5129C4B4AF004CEB32 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3CC08D4F29C4B4AF004CEB32 /* PBXTargetDependency */,
 			);
 			name = CalorEase;
 			productName = CalorEase;
@@ -183,6 +313,23 @@
 			productReference = 3CC08CDC29C1FBAC004CEB32 /* CalorEaseUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		3CC08D4229C4B4AD004CEB32 /* Watch Your CalorEase Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC08D5429C4B4AF004CEB32 /* Build configuration list for PBXNativeTarget "Watch Your CalorEase Watch App" */;
+			buildPhases = (
+				3CC08D3F29C4B4AD004CEB32 /* Sources */,
+				3CC08D4029C4B4AD004CEB32 /* Frameworks */,
+				3CC08D4129C4B4AD004CEB32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watch Your CalorEase Watch App";
+			productName = "Watch Your CalorEase Watch App";
+			productReference = 3CC08D4329C4B4AD004CEB32 /* Watch Your CalorEase Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +351,9 @@
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = 3CC08CC129C1FBAA004CEB32;
 					};
+					3CC08D4229C4B4AD004CEB32 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 				};
 			};
 			buildConfigurationList = 3CC08CBD29C1FBAA004CEB32 /* Build configuration list for PBXProject "CalorEase" */;
@@ -222,6 +372,7 @@
 				3CC08CC129C1FBAA004CEB32 /* CalorEase */,
 				3CC08CD129C1FBAC004CEB32 /* CalorEaseTests */,
 				3CC08CDB29C1FBAC004CEB32 /* CalorEaseUITests */,
+				3CC08D4229C4B4AD004CEB32 /* Watch Your CalorEase Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -250,6 +401,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3CC08D4129C4B4AD004CEB32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC08D4D29C4B4AF004CEB32 /* Preview Assets.xcassets in Resources */,
+				3CC08D4A29C4B4AF004CEB32 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,8 +417,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CC08CF829C2044D004CEB32 /* AddFoodView.swift in Sources */,
+				3CC08D5629C4BB05004CEB32 /* ConnectivityViewModel.swift in Sources */,
 				3CC08CC829C1FBAA004CEB32 /* ContentView.swift in Sources */,
+				3CC08CF429C1FD62004CEB32 /* DataController.swift in Sources */,
 				3CC08CC629C1FBAA004CEB32 /* CalorEaseApp.swift in Sources */,
+				3CC08CF229C1FC4A004CEB32 /* FoodModel.xcdatamodeld in Sources */,
+				3CC08D5B29C4C66B004CEB32 /* FoodModel.swift in Sources */,
+				3CC08CFC29C214BE004CEB32 /* EditFoodView.swift in Sources */,
+				3CC08CFA29C2076C004CEB32 /* TimeFormatting.swift in Sources */,
+				3CEE178C29C744F5008B4109 /* ConnectivityViewModel+iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +447,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3CC08D3F29C4B4AD004CEB32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC08D5929C4C2A6004CEB32 /* ConnectivityViewModel.swift in Sources */,
+				3CEE178A29C744D0008B4109 /* ConnectivityViewModel+watchOS.swift in Sources */,
+				3CC08D5E29C4D256004CEB32 /* WatchFoodListView.swift in Sources */,
+				3CC08D4829C4B4AD004CEB32 /* ContentView.swift in Sources */,
+				3CC08D4629C4B4AD004CEB32 /* Watch_Your_CalorEaseApp.swift in Sources */,
+				3CEE179329C75B4A008B4109 /* DataController.swift in Sources */,
+				3CEE179229C75403008B4109 /* TimeFormatting+watchOS.swift.swift in Sources */,
+				3CC08D5C29C4C66B004CEB32 /* FoodModel.swift in Sources */,
+				3CEE179429C75EF2008B4109 /* TimeFormatting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,6 +475,11 @@
 			isa = PBXTargetDependency;
 			target = 3CC08CC129C1FBAA004CEB32 /* CalorEase */;
 			targetProxy = 3CC08CDD29C1FBAC004CEB32 /* PBXContainerItemProxy */;
+		};
+		3CC08D4F29C4B4AF004CEB32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CC08D4229C4B4AD004CEB32 /* Watch Your CalorEase Watch App */;
+			targetProxy = 3CC08D4E29C4B4AF004CEB32 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -412,14 +601,18 @@
 		3CC08CE729C1FBAC004CEB32 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CalorEase/Preview Content\"";
 				DEVELOPMENT_TEAM = K5DY9P29V9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CalorEase;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -441,14 +634,18 @@
 		3CC08CE829C1FBAC004CEB32 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CalorEase/Preview Content\"";
 				DEVELOPMENT_TEAM = K5DY9P29V9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CalorEase;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -543,6 +740,66 @@
 			};
 			name = Release;
 		};
+		3CC08D5229C4B4AF004CEB32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Watch Your CalorEase Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = K5DY9P29V9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Watch Your CalorEase";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = app.ethanclark.CalorEase;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.ethanclark.CalorEase.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		3CC08D5329C4B4AF004CEB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Watch Your CalorEase Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = K5DY9P29V9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Watch Your CalorEase";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = app.ethanclark.CalorEase;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.ethanclark.CalorEase.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -582,7 +839,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3CC08D5429C4B4AF004CEB32 /* Build configuration list for PBXNativeTarget "Watch Your CalorEase Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC08D5229C4B4AF004CEB32 /* Debug */,
+				3CC08D5329C4B4AF004CEB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3CC08CF029C1FC4A004CEB32 /* FoodModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3CC08CF129C1FC4A004CEB32 /* FoodModel.xcdatamodel */,
+			);
+			currentVersion = 3CC08CF129C1FC4A004CEB32 /* FoodModel.xcdatamodel */;
+			path = FoodModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3CC08CBA29C1FBAA004CEB32 /* Project object */;
 }
